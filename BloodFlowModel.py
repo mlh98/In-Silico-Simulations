@@ -82,8 +82,8 @@ def r_pipe(z, d, g, n_slices, delta_z, v, TR, T1_blood, interleaved=False):
                    central slice
         W_gts: Relative amount of blood flowing from gaps to the central
                slice
-        Relative amount of blood signal (weighted with T1 relaxation) depending 
-        on interleaved or ascending slice acquisition mode
+        Relative blood signal (weighted with T1 relaxation) depending on 
+        interleaved or ascending slice acquisition mode
     """
     
     # Compute all slice and gap positions
