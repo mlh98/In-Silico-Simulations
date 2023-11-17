@@ -212,7 +212,6 @@ T1_blood = 1.3
 f_meas = 0.28
 
 # slices and gaps
-# different slice and gap sizes
 n_slices = 9
 d = 5
 g = 5
